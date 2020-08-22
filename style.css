@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: aquamarine;
+    padding: 15px;
+    cursor: pointer;
+  
+}
+.modal_blok{
+    display: none;
+}
+.modal{
+   display: none;
+}
+.wrap{
+    max-width: 300px;
+    background-color: rgb(197, 233, 112);
+    padding:6px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+  
+
+}
+.headmodal{
+    display: flex;
+    justify-content: space-around;
+}
+.headmodal>h1{
+    margin: 0;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.body{
+    text-align: center;
+}
